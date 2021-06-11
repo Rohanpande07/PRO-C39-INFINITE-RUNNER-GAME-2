@@ -1,2 +1,2 @@
-# C38-CAMERA.x
+# C39-CAMERA.x
 Modified Trex Game to use camera.x as trex.x
