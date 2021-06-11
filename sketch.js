@@ -75,10 +75,11 @@ function draw() {
   gameOver.position.x = restart.position.x = camera.x
 
   background(255);
-  text("Score: "+ score, 500,50);
   
   if (gameState===PLAY){
     score = score + Math.round(getFrameRate()/60);
+    text("Score: "+score,275,50);
+
     ground.velocityX = -(6 + 3*score/100);
   
     if(keyDown("space") && trex.y >= 159) {
@@ -94,6 +95,7 @@ function draw() {
     trex.collide(invisibleGround);
     spawnClouds();
     spawnObstacles();
+    text("Score: "+score,450,50);
   
     if(obstaclesGroup.isTouching(trex)){
         gameState = END;
@@ -120,8 +122,8 @@ function draw() {
       reset();
     }
   }
-  
   drawSprites();
+
 }
 
 function spawnClouds() {
