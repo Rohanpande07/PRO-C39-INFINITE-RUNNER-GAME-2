@@ -1,2 +1,2 @@
-# C39-CAMERA.x
-Modified Trex Game to use camera.x as trex.x
+# PRO-C39: INFINITE RUNNER GAME-2
+https://github.com/Rohanpande07/PRO-C39-INFINITE-RUNNER-GAME-2.git
